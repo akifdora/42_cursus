@@ -1,20 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_main.c                                          :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdora <mdora@student.42kocaeli.com.tr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/05 16:11:04 by mdora             #+#    #+#             */
-/*   Updated: 2022/12/06 15:05:34 by mdora            ###   ########.fr       */
+/*   Created: 2022/12/06 14:02:54 by mdora             #+#    #+#             */
+/*   Updated: 2022/12/06 14:02:56 by mdora            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	main(void)
+void	*ft_memset(void *b, int c, size_t len)
 {
-	char cdizi[] = "Bilgisayar";
-	ft_memset(cdizi, '0', 2);
-	printf("%s", cdizi);
+	size_t	i;
+	char	*dest;
+
+	dest = b;
+	i = 0;
+	while (i < len)
+	{
+		dest[i] = c;
+		i++;
+	}
+	return (b);
 }

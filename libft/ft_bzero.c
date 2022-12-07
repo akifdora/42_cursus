@@ -1,20 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_main.c                                          :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdora <mdora@student.42kocaeli.com.tr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/05 16:11:04 by mdora             #+#    #+#             */
-/*   Updated: 2022/12/06 15:05:34 by mdora            ###   ########.fr       */
+/*   Created: 2022/12/06 16:12:37 by mdora             #+#    #+#             */
+/*   Updated: 2022/12/06 16:12:39 by mdora            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	main(void)
+void	ft_bzero(void *s, size_t n)
 {
-	char cdizi[] = "Bilgisayar";
-	ft_memset(cdizi, '0', 2);
-	printf("%s", cdizi);
+	ft_memset(s, '\0', n);
 }
