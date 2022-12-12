@@ -23,5 +23,11 @@
 ## size_t Nedir? ##
 > Diziler dahil olmak üzere herhangi bir nesnenin boyutunu göstermek için kullanılan bir işaretsiz tamsayı türüdür.
 
+## sizeof Nedir? ##
+> Belirtilen veri türünün byte olarak ölçülmesini sağlar.
+> ```c
+> int * pointer = malloc(sizeof(int) * 10);
+> ```
+
 ## Bellek Çakışması (Overlapping) ##
 > Bellek çakışması (overlapping), 
