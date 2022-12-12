@@ -57,3 +57,27 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 void	*ft_memmove(void *dst, const void *src, size_t len)
 ```
 > Fonksiyon src değerini dst değerine len değeri kadar kopyalar fakat [bellek çakışmasından (overlapping)](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/notes/README.md#bellek-%C3%A7ak%C4%B1%C5%9Fmas%C4%B1-overlapping) kaynaklı memmove() fonksiyonu memcpy() fonksiyonundan daha sağlıklıdır.
+
+## [strlcpy](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strlcpy.c) ##
+```c
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
+```
+> Fonksiyon src değerini dst değerine size değeri kadar kopyalar.
+
+## [strlcat](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strlcat.c) ##
+```c
+size_t	ft_strlcat(char	*dst, const char *src, size_t dstsize)
+```
+> Fonksiyon src değerini dst değerinden sonra size değeri kadar yazdırır ve çıktı olarak son uzunluğu verir.
+
+## [toupper](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_toupper.c) ##
+```c
+int	ft_toupper(int c)
+```
+> Fonksiyonda c ile gönderilen değişken değerini büyük harfe çevirir.
+
+## [tolower](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_tolower.c) ##
+```c
+int	ft_tolower(int c)
+```
+> Fonksiyonda c ile gönderilen değişken değerini küçük harfe çevirir.
