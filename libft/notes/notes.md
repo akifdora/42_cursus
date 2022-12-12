@@ -1,5 +1,3 @@
-# NOTLAR #
-
 ## Veri Türleri ##
 | Veri Adı  | Veri Türü |
 | ------------- | ------------- |
