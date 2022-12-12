@@ -123,3 +123,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 int	ft_atoi(const char *str)
 ```
 > Fonksiyonda str ile gönderilen değeri ASCII'den Integer türüne döndürür.
+
+## [calloc](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_calloc.c) ##
+```c
+void	*ft_calloc(size_t count, size_t size)
+```
+> Fonksiyon istenen belleği ayırır ve ona bir işaretçi döndürür. malloc ve calloc arasındaki fark, malloc'un belleği sıfıra ayarlamamasıdır, calloc ayrılan belleği sıfırlar.
