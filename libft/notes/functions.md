@@ -81,3 +81,34 @@ int	ft_toupper(int c)
 int	ft_tolower(int c)
 ```
 > Fonksiyonda c ile gönderilen değişken değerini küçük harfe çevirir.
+
+## [strchr](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strchr.c) ##
+```c
+char	*ft_strchr(const char *s, int c)
+```
+> Fonksiyonda s ile gönderilen dizinin içerisinde c ile gönderilen değişken değerini arar, c değerini ilk bulduğu yerden sonrasını ekrana yazdırır.
+
+## [strrchr](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strrchr.c) ##
+```c
+char	*ft_strrchr(const char *s, int c)
+```
+> Fonksiyonda s ile gönderilen dizinin içerisinde c ile gönderilen değişken değerini arar, c değerini en son bulduğu yerden sonrasını ekrana yazdırır.
+
+## [strncmp](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strncmp.c) ##
+```c
+int	ft_strncmp(const char *s1, const char *s2, size_t size)
+```
+> Fonksiyonda s1 ve s2 ile gönderilen dizileri size değeri kadar ASCII farkı ile karşılaştırır.
+
+## [memchr](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_memchr.c) ##
+```c
+void	*ft_memchr(const void *s, int c, size_t n)
+```
+> Fonksiyonda s ile gönderilen dizinin içerisinde c ile gönderilen değişken değerini arar, c değerini ilk bulduğu yerden sonrasını ekrana yazdırır.
+
+## [memcmp](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_memcmp.c) ##
+```c
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
+```
+> Fonksiyonda s1 ve s2 ile gönderilen dizilerin bellek alanlarını size değeri kadar karşılaştırır.
+
