@@ -1,13 +1,21 @@
 # NOTLAR #
 
 ## Veri Türleri ##
-| Veri Adı  | Veri Tipi |
+| Veri Adı  | Veri Türü |
 | ------------- | ------------- |
 | char  | Karakter  |
 | int | Tamsayı  |
 | float | Kayan noktalı sayı  |
 | double | Çift duyarlılıklı kayan sayı  |
 | void | Değersiz  |
+
+## Veri Türü Değiştiricileri ##
+| Değiştirici  | Kullanıldığı Veri Türü |
+| ------------- | ------------- |
+| signed  | char, int  |
+| unsigned | char, int  |
+| long | int, double  |
+| short | int  |
 
 ## const Nedir? ##
 > Bir değişkenin değerinin program boyunca sabit olarak tutulmasını sağlar.
