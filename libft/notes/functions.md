@@ -112,3 +112,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 ```
 > Fonksiyonda s1 ve s2 ile gönderilen dizilerin bellek alanlarını size değeri kadar karşılaştırır.
 
+## [strnstr](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strnstr.c) ##
+```c
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
+```
+> Fonksiyonda needke ile gönderilen değerin haystack değerinde len sayısal değerindeki uzunluğa kadar var olup olmadığını kontrol eder.
+
+## [atoi](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_atoi.c) ##
+```c
+int	ft_atoi(const char *str)
+```
+> Fonksiyonda str ile gönderilen değeri ASCII'den Integer türüne döndürür.
