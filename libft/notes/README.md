@@ -10,6 +10,7 @@
 | void | Değersiz  |
 
 ## Veri Türü Değiştiricileri ##
+> Sadece char, int ve double veri türlerinin önüne aşağıda gösterilen değiştiricileri koyarak, veri tiplerinin işaret (+/-) durumunu, byte olarak boyutlarını ve sınırlarını değiştirebiliriz.
 | Değiştirici  | Kullanıldığı Veri Türü |
 | ------------- | ------------- |
 | signed  | char, int  |
