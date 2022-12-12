@@ -1,11 +1,16 @@
 # NOTLARIM #
   
-## size_t ##
-> Herhangi bir nesnenin -diziler dahil- boyutunu göstermek için kullanılan bir işaretsiz tamsayı türüdür.
+## [isalpha](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isalpha.c) ##
+> Programa gönderilen parametrenin alfabetik karakter olup olmadığını sorgular.
 
-## memset ##
-```c
-void* memset(void *dest, int c, size_t n);
-```
-> C parametresi ile gösterilen bellek bölgesindeki karakteri (unsigned char), dest parametresindeki bellek bölgesinin ilk n parametre değeri kadar byte'ına kopyalar.
+## [isdigit](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isdigit.c) ##
+> Programa gönderilen parametrenin rakam olup olmadığını sorgular.
 
+## [isalnum](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isalnum.c) ##
+> Programa gönderilen parametrenin alfabetik karakter ya da rakam olup olmadığını sorgular.
+
+## [isascii](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isascii.c) ##
+> Programa gönderilen parametrenin ASCII değerinin olup olmadığını sorgular.
+
+## [isprint](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isprint.c) ##
+> Programa gönderilen parametrenin yazdırılabilir olup olmadığını sorgular.
