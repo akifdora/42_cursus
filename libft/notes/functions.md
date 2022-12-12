@@ -1,5 +1,7 @@
 ## [isalpha](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isalpha.c) ##
-`int	ft_isalpha(int c)`
+```c
+int	ft_isalpha(int c)
+```
 > Programa gönderilen parametrenin alfabetik karakter olup olmadığını sorgular.
 
 ## [isdigit](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_isdigit.c) ##
