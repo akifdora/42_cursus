@@ -29,5 +29,8 @@
 > int * pointer = malloc(sizeof(int) * 10);
 > ```
 
+## Neden `malloc(sizeof(char) * (len + 1))` gibi bir kullanım var? ##
+> Bu kullanım bize bellekte `len + 1` uzunluğunun char tipinde kadar yer açmamıza olanak sağlar. `sizeof(char)` kullanımının sebebi bazı sistemlerde veri tiplerinin boyutları değişkenlik göstermektedir. Bu değişkenlikte güvenli bir şekilde bellekte yer açabilmemiz için her sisteme uyum sağlayabilecek bir şekilde o veri tipinin boyutunu alabilmek için bu komutu kullanıp uzunluğumuzun bir fazlası ile çarpıyoruz.
+
 ## Bellek Çakışması (Overlapping) ##
 > Bellek çakışması (overlapping), 
