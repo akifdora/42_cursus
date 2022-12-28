@@ -129,3 +129,9 @@ int	ft_atoi(const char *str)
 void	*ft_calloc(size_t count, size_t size)
 ```
 > Fonksiyon istenen belleği ayırır ve ona bir işaretçi döndürür. malloc ve calloc arasındaki fark, malloc'un belleği sıfıra ayarlamamasıdır, calloc ayrılan belleği sıfırlar.
+
+## [strdup](https://github.com/akifdora/42kocaeli_cursus/blob/main/libft/ft_strdup.c) ##
+```c
+char	*ft_strdup(const char *str)
+```
+> Fonksiyon bellekte bir yer ayırır ve parametre olarak gönderilen string değerini bellekte ayırdığı yere yazdırır.
